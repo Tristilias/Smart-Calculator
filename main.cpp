@@ -1,5 +1,6 @@
 #include <iostream>
 #include "luas.h"
+#include "dasar.h"
 using namespace std;
 
 int main() {
@@ -7,16 +8,20 @@ int main() {
 
     cout << "===Smart Calculator===\n";
     cout << "Silahkan memilih opsi yang tersedia:\n";
-    cout << "1. Luas\n";
-    cout << "2. Exit\n";
+    cout << "1. Operasi Dasar\n";
+    cout << "2. Luas\n";
+    cout << "3. Exit\n";
     cout << "Pilih: ";
     cin >> pilihan;
 
     switch (pilihan) {
         case 1:
-            menuLuas(); //ini untuk panggil fungsi
+            menuDasar(); //Panggil fungsi dasar di dasar.cpp
             break;
         case 2:
+            menuLuas(); //Panggil fungsi luas di luas.cpp
+            break;
+        case 3:
             cout << "Terima kasih telah menggunakan Smart Calculator. Sampai jumpa!\n";
             break;
         default:
