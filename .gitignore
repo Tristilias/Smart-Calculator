@@ -1,0 +1,14 @@
+# Mengabaikan file aplikasi hasil compile (Windows)
+*.exe
+
+# Mengabaikan file objek hasil kompilasi
+*.o
+*.obj
+
+# Mengabaikan folder debug/release buatan VS Code atau Compiler
+bin/
+obj/
+.vscode/
+
+# Mengabaikan file log
+*.log
