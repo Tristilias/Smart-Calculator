@@ -71,6 +71,5 @@ void menuLuas() {
 
 }
 int main() {
-    menuLuas();
   return 0; 
 }
