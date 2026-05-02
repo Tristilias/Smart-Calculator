@@ -1,6 +1,4 @@
 #include <iostream>
-#include "luas.cpp"
-#include "dasar.cpp"
 #include "luas.h"
 #include "dasar.h"
 using namespace std; 

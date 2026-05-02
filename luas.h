@@ -3,7 +3,4 @@
 
 void menuLuas();
 
-double LuasSegitiga(double alas, double tinggi);
-double LuasPersegiPanjang(double panjang, double lebar);
-
 #endif
