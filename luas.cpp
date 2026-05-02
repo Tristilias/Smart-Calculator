@@ -9,7 +9,7 @@ constexpr double pi = 3.14159265358979323846;
 void menuLuas() {
   int pilihan; 
   ll s, p, l, t, a, r, ss, dia1, dia2;
-  cout << "====Menu  Luas====";
+  cout << "====Menu  Luas====\n";
   cout << "Silahkan memilih bangun datar yang tersedia: \n";
   cout << "1. Persegi\n"; 
   cout << "2. Persegi Panjang\n";
