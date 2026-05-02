@@ -1,8 +1,8 @@
 #include <iostream>
 #include "luas.h"
 #include "dasar.h"
-using namespace std;
-//test
+using namespace std; 
+
 int main() {
     int pilihan;
 
