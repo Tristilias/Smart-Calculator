@@ -70,6 +70,3 @@ void menuLuas() {
 
 
 }
-int main() {
-  return 0; 
-}
