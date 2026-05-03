@@ -3,7 +3,7 @@
 #include "diskon.h"
 using namespace std;
 
-double HitungDiskon(double harga, double persenDiskon) {
+constexpr double HitungDiskon(double harga, double persenDiskon) {
     return harga * (persenDiskon / 100.0);
 }
 
