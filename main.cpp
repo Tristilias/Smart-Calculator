@@ -1,5 +1,5 @@
 #include <iostream>
-#include "luas.h"
+#include "bangundatar.h"
 #include "dasar.h"
 #include "diskon.h"
 using namespace std;

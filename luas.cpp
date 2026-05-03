@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include "luas.h"
+#include "bangundatar.h"
 #define ll long long
 using namespace std;
 
@@ -67,6 +67,4 @@ void menuLuas() {
       menuLuas(); 
       break;
   } 
-
-
 }
