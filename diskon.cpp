@@ -7,6 +7,10 @@ constexpr double HitungDiskon(double harga, double persenDiskon) {
     return harga * (persenDiskon / 100.0);
 }
 
+constexpr double hargatotal(double HitungDiskon, double harga) {
+    return harga - HitungDiskon;
+}
+
 void menuDiskon() {
     double harga, persenDiskon, potongan, hargatotal;
     string lagi = "y";

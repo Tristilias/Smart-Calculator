@@ -19,7 +19,7 @@ void menuKeliling() {
   cout << "6. Jajar Genjang\n";
   cout << "7. Belah Ketupat/Layang - Layang\n";
   cout << "0. Exit\n";
-  cin >> pilihan;
+  cout << "Pilih: "; cin >> pilihan;
 
   switch(pilihan) {
     case 1:

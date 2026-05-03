@@ -19,7 +19,7 @@ void menuLuas() {
   cout << "6. Jajar Genjang\n";
   cout << "7. Belah Ketupat/Layang - Layang\n";
   cout << "0. Exit\n";
-  cin >> pilihan;
+  cout << "Pilih: "; cin >> pilihan;
 
   switch(pilihan) {
     case 1: 
@@ -47,19 +47,19 @@ void menuLuas() {
     case 5: 
       cout << "Silahkan Isi Banyak Sisi Sejajar dan Tinggi Trapesium: \n";
       cout << "Banyak sisi sejajar: "; cin >> ss;
-       cout << "Tinggi: "; cin >> t;
+      cout << "Tinggi: "; cin >> t;
       cout <<  "hasil: " <<(double) ss * t * 0.5 << '\n'; 
       break;
     case 6: 
       cout << "Silahkan Isi Alas Dan Tinggi Jajar Genjang: \n";
-       cout << "Alas: "; cin >> a; 
-       cout << "Tinggi: "; cin >> t; 
+      cout << "Alas: "; cin >> a; 
+      cout << "Tinggi: "; cin >> t; 
       cout << "hasil: " << a * t << '\n'; 
       break;
     case 7: 
       cout << "Silahkan Isi Diagonal 1 dan Diagonal 2 Belah Ketupat /Layang-Layang: \n";
-       cout << "Diagonal 1: "; cin >> dia1; 
-       cout << "Diagonal 2: "; cin >> dia2; 
+      cout << "Diagonal 1: "; cin >> dia1; 
+      cout << "Diagonal 2: "; cin >> dia2; 
       cout <<  "hasil: " << 0.5 * dia1 * dia2  << '\n'; 
       break;
     default: 
