@@ -14,11 +14,8 @@ int main()
         cout << "===Smart Calculator===\n";
         cout << "Silahkan memilih opsi yang tersedia:\n";
         cout << "1. Operasi Dasar\n";
-        cout << "2. Luas\n";
-        cout << "3. Keliling\n";
-        cout << "4. Volume\n";
-        cout << "5. Surface Area\n";
-        cout << "6. Diskon\n";
+        cout << "2. Bangun Datar dan Ruang\n";
+        cout << "3. Diskon\n";
         cout << "0. Exit\n";
         cout << "Pilih: ";
         cin >> pilihan;
@@ -29,18 +26,9 @@ int main()
             menuDasar(); // Panggil fungsi dasar di dasar.cpp
             break;
         case 2:
-            menuLuas(); // Panggil fungsi luas di luas.cpp
+            menuBangun(); // Panggil fungsi bangun di bangun.cpp
             break;
         case 3:
-            menuKeliling(); // Panggil fungsi keliling di keliling.cpp
-            break;
-        case 4:
-            menuVolume(); // Panggil fungsi volume di volume.cpp
-            break;
-        case 5:
-            menuSurface(); // Panggil fungsi surface di surface.cpp
-            break;
-        case 6:
             menuDiskon(); // Panggil fungsi diskon di diskon.cpp
             break;
         case 0:
