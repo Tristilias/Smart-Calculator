@@ -38,6 +38,7 @@ void menuDasar() {
     cout << "3. Perkalian\n";
     cout << "4. Pembagian\n";
     cout << "5. Modulus\n";
+    cout << "0. Exit\n";
     cout << "Pilih operasi (1-5): ";
     cin >> pilihan;
 
@@ -61,6 +62,9 @@ void menuDasar() {
             break;
         case 5:
             cout << "Hasil Modulus: " << Modulus(a, b) << endl;
+            break;
+        case 0:
+            cout << "Keluar dari menu Operasi Dasar.\n";
             break;
         default:
             cout << "Pilihan tidak valid. Silahkan coba lagi.\n";

@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include "bangundatar.h"
+#include "bangun.h"
 using ll = long long;
 using namespace std;
 
@@ -66,6 +66,9 @@ void menuKeliling() {
         cout << "Sisi 3: "; cin >> c;
         cout << "Sisi 4: "; cin >> d;
         cout << "Hasil: " << a + b + c + d << endl;
+        break;
+    case 0:
+        cout << "Keluar dari menu Keliling.\n";
         break;
     default:
         cout << "Pilihan tidak valid. Silahkan coba lagi.\n";

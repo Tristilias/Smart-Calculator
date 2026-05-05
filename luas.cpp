@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include "bangundatar.h"
+#include "bangun.h"
 #define ll long long
 using namespace std;
 
@@ -62,7 +62,10 @@ void menuLuas() {
       cout << "Diagonal 2: "; cin >> dia2; 
       cout <<  "hasil: " << 0.5 * dia1 * dia2  << '\n'; 
       break;
-    default: 
+    case 0:
+      cout << "Keluar dari menu Luas.\n";
+      break;
+    default:
       cout << "Masukan tidak valid, silahkan coba lagi\n"; 
       menuLuas(); 
       break;
