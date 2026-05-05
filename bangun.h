@@ -4,5 +4,6 @@
 void menuKeliling();
 void menuLuas();
 void menuVolume();
+void menuSurface();
 
 #endif
