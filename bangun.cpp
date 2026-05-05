@@ -4,7 +4,7 @@ using namespace std;
 
 void menuBangun() {
     int pilihan;
-    cout << "===Menu Bangun===\n";
+    cout << "===Menu Bangun Datar dan Bangun Ruang===\n";
     cout << "Silahkan memilih opsi yang tersedia:\n";
     cout << "1. Luas\n";
     cout << "2. Keliling\n";
@@ -15,21 +15,23 @@ void menuBangun() {
 
     switch(pilihan) {
         case 1:
-            menuLuas(); // Panggil fungsi luas di luas.cpp
+            menuLuas(); // Panggil fungsi luas di bangun.h
             break;
         case 2:
-            menuKeliling(); // Panggil fungsi keliling di keliling.cpp
+            menuKeliling(); // Panggil fungsi keliling di bangun.h
             break;
         case 3:
-            menuVolume(); // Panggil fungsi volume di volume.cpp
+            menuVolume(); // Panggil fungsi volume di bangun.h
             break;
         case 4:
-            menuSurface(); // Panggil fungsi surface di surface.cpp
+            menuSurface(); // Panggil fungsi surface di bangun.h
             break;
         case 0:
             cout << "Keluar dari menu Bangun.\n";
             break;
         default:
-            cout << "Pilihan tidak valid.\n";
+            cout << "Pilihan tidak valid, silakan coba lagi.\n";
+            menuBangun();
+            break;
     }
 }

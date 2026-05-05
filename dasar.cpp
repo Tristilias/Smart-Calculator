@@ -68,6 +68,7 @@ void menuDasar() {
             break;
         default:
             cout << "Pilihan tidak valid. Silahkan coba lagi.\n";
+            menuDasar();
             break;
     }
 }

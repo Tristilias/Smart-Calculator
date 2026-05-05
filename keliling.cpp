@@ -9,7 +9,7 @@ constexpr double pi = 3.14159265358979323846;
 void menuKeliling() {
     int pilihan; 
   ll s, p, l, a, b, c, d, r;
-  cout << "====Menu Keliling====\n";
+  cout << "===Menu Keliling===\n";
   cout << "Silahkan memilih bangun datar yang tersedia: \n";
   cout << "1. Persegi\n"; 
   cout << "2. Persegi Panjang\n";
@@ -72,5 +72,7 @@ void menuKeliling() {
         break;
     default:
         cout << "Pilihan tidak valid. Silahkan coba lagi.\n";
+        menuKeliling();
+        break;
   }
 }

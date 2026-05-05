@@ -9,7 +9,7 @@ void menuVolume() {
     int pilihan;
     double r, t, a, b, c;
 
-    cout << "====Menu Volume====\n";
+    cout << "===Menu Volume===\n";
     cout << "Silahkan memilih bangun ruang yang tersedia: \n";
     cout << "1. Kubus\n";
     cout << "2. Balok\n";
@@ -48,6 +48,8 @@ void menuVolume() {
             cout << "Keluar dari menu volume.\n";
             break;
         default:
-            cout << "Pilihan tidak valid.\n";
+            cout << "Pilihan tidak valid, silahkan coba lagi.\n";
+            menuVolume();
+            break;
     }
 }

@@ -9,7 +9,7 @@ void menuSurface() {
     int pilihan;
     double r, t, a, b, c;
 
-    cout << "====Menu Surface Area====\n";
+    cout << "===Menu Surface Area===\n";
     cout << "Silahkan memilih bangun ruang yang tersedia: \n";
     cout << "1. Kubus\n";
     cout << "2. Balok\n";
