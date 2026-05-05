@@ -17,8 +17,9 @@ int main()
         cout << "2. Luas\n";
         cout << "3. Keliling\n";
         cout << "4. Volume\n";
-        cout << "5. Diskon\n";
-        cout << "6. Exit\n";
+        cout << "5. Surface Area\n";
+        cout << "6. Diskon\n";
+        cout << "0. Exit\n";
         cout << "Pilih: ";
         cin >> pilihan;
 
@@ -37,9 +38,12 @@ int main()
             menuVolume(); // Panggil fungsi volume di volume.cpp
             break;
         case 5:
-            menuDiskon(); // Panggil fungsi diskon di diskon.cpp
+            menuSurface(); // Panggil fungsi surface di surface.cpp
             break;
         case 6:
+            menuDiskon(); // Panggil fungsi diskon di diskon.cpp
+            break;
+        case 0:
             cout << "Terima kasih telah menggunakan Smart Calculator. Sampai jumpa!\n";
             loopMain = false; // Keluar dari loop utama
             break;
@@ -47,7 +51,7 @@ int main()
             cout << "Pilihan tidak valid. Silahkan coba lagi.\n";
             break;
         }
-        if (pilihan != 6)
+        if (pilihan != 0)
         {
             cout << "Tekan Enter untuk kembali ke menu utama...";
             cin.ignore(); // Hilangkan buffer
