@@ -3,8 +3,9 @@
 #include "bangun.h"
 #include "dasar.h"
 #include "diskon.h"
+#include "bmi.h"
 using namespace std;
-// test
+
 int main()
 {
     int pilihan;
@@ -18,6 +19,7 @@ int main()
         cout << "2. Bangun Datar dan Ruang\n";
         cout << "3. Diskon\n";
         cout << "4. Temperatur\n";
+        cout << "5. Body Mass Index (BMI)\n";
         cout << "0. Exit\n";
         cout << "Pilih: ";
         cin >> pilihan;
@@ -35,6 +37,9 @@ int main()
             break;
         case 4:
             menuTemp(); // Panggil fungsi temperatur di temp.h
+            break;
+        case 5:
+            menuBMI(); // Panggil fungsi BMI di bmi.h
             break;
         case 0:
             cout << "Terima kasih telah menggunakan Smart Calculator. Sampai jumpa!\n";
