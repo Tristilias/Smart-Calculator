@@ -18,8 +18,6 @@ int main()
         cout << "2. Bangun Datar dan Ruang\n";
         cout << "3. Diskon\n";
         cout << "4. Temperatur\n";
-        cout << "5. Konversi Mata Uang (Coming Soon)\n";
-        cout << "6. Trigonometri (Coming Soon)\n";
         cout << "0. Exit\n";
         cout << "Pilih: ";
         cin >> pilihan;
