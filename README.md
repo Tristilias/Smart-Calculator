@@ -32,6 +32,7 @@ Konversi suhu:
 - Celsius
 - Fahrenheit
 - Kelvin
+- Reamur
 
 ### 💸 Discount Calculator
 Menghitung:
