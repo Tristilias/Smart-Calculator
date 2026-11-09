@@ -1,13 +1,10 @@
 # Smart Calculator 🧮
 
-Smart Calculator adalah proyek kalkulator modular berbasis C++ yang dirancang untuk membantu berbagai perhitungan sehari-hari secara cepat dan praktis.
+## 🎯 Kegunaan
+Membantu pengguna mengetahui berat badan ideal dan selisihnya dari berat saat ini, hanya dengan memasukkan tinggi dan berat badan.
 
-Project ini dibuat sebagai sarana belajar:
-- Modular Programming
-- Multi-file C++
-- Header File (`.h`)
-- Function & Switch Case
-- Struktur project skala kecil-menengah
+## 🌐 English Summary
+A simple Python console tool that calculates ideal body weight from height and weight input, with input validation and repeat mode.
 
 ---
 
