@@ -1,10 +1,10 @@
 # Smart Calculator 🧮
 
 ## 🎯 Kegunaan
-Membantu pengguna mengetahui berat badan ideal dan selisihnya dari berat saat ini, hanya dengan memasukkan tinggi dan berat badan.
+Kalkulator serba guna untuk perhitungan sehari-hari: hitung dasar, geometri, konversi suhu, diskon, dan BMI. Dibuat modular sehingga mudah dikembangkan.
 
 ## 🌐 English Summary
-A simple Python console tool that calculates ideal body weight from height and weight input, with input validation and repeat mode.
+A modular multi-file C++ calculator with basic math, geometry, temperature conversion, discount, and BMI features.
 
 ---
 
